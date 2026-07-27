@@ -1,8 +1,26 @@
 aid: gerson-lehrman-group-glg
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gerson-lehrman-group-glg.png
 name: Gerson Lehrman Group (GLG)
-description: 'Gerson Lehrman Group (GLG) is a company surfaced as a portfolio company of bessemer-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'Gerson Lehrman Group (GLG) is the world''s leading platform for trusted human expertise,
+  connecting organizations with a network of senior-level subject-matter experts to inform strategic
+  decision-making. For more than 25 years GLG has facilitated expert calls and meetings, on-demand
+  expert content and transcripts, quantitative and qualitative research and surveys, in-person and
+  virtual events, and advisory and placement engagements. Its myGLG platform layers AI-powered and
+  agentic research tools over that expert network. GLG was surfaced as a portfolio company of
+  Bessemer Venture Partners and added to the API Evangelist network. GLG operates no public developer
+  API or documented developer program; this profile captures its public identity, legal, and security
+  surface.'
 url: https://raw.githubusercontent.com/api-evangelist/gerson-lehrman-group-glg/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
-- Fintech
+- Expert Network
+- Market Research
+- Insights
+- Consulting
+- Professional Services
+- Advisory
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +46,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/gerson-lehrman-group-glg-domain-security.yml
 - type: Website
-  url: https://glg.it/
+  url: https://glg.com/
+- type: PrivacyPolicy
+  url: https://glg.com/privacy-policy
+- type: TermsOfService
+  url: https://glg.com/terms-of-use
+- type: Support
+  url: https://glg.com/about/contact-locations
+- type: Blog
+  url: https://glg.com/resources
+- type: LLMsTxt
+  url: llms/gerson-lehrman-group-glg-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
